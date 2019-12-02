@@ -1,0 +1,113 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'about.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+version = '0.2'
+date = '2019.0514'
+
+class Ui_AboutDialog(object):
+	def setupUi(self, AboutDialog):
+		AboutDialog.setObjectName("AboutDialog")
+		AboutDialog.setWindowModality(QtCore.Qt.NonModal)
+		AboutDialog.resize(500, 305)
+		sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+		sizePolicy.setHorizontalStretch(0)
+		sizePolicy.setVerticalStretch(0)
+		sizePolicy.setHeightForWidth(AboutDialog.sizePolicy().hasHeightForWidth())
+		AboutDialog.setSizePolicy(sizePolicy)
+		AboutDialog.setMinimumSize(QtCore.QSize(500, 305))
+		AboutDialog.setMaximumSize(QtCore.QSize(500, 305))
+		AboutDialog.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
+		icon = QtGui.QIcon()
+		icon.addPixmap(QtGui.QPixmap(":/img/logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+		AboutDialog.setWindowIcon(icon)
+		self.gridLayout = QtWidgets.QGridLayout(AboutDialog)
+		self.gridLayout.setObjectName("gridLayout")
+		self.rightVertical = QtWidgets.QVBoxLayout()
+		self.rightVertical.setContentsMargins(0, 0, 0, 0)
+		self.rightVertical.setObjectName("rightVertical")
+		self.label_5 = QtWidgets.QLabel(AboutDialog)
+		self.label_5.setObjectName("label_5")
+		self.rightVertical.addWidget(self.label_5)
+		self.label_3 = QtWidgets.QLabel(AboutDialog)
+		self.label_3.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+		self.label_3.setObjectName("label_3")
+		self.rightVertical.addWidget(self.label_3)
+		self.label_4 = QtWidgets.QLabel(AboutDialog)
+		self.label_4.setWordWrap(True)
+		self.label_4.setOpenExternalLinks(True)
+		self.label_4.setObjectName("label_4")
+		self.rightVertical.addWidget(self.label_4)
+		self.okButtonHolder = QtWidgets.QHBoxLayout()
+		self.okButtonHolder.setObjectName("okButtonHolder")
+		self.rightVertical.addLayout(self.okButtonHolder)
+		self.gridLayout.addLayout(self.rightVertical, 0, 1, 1, 1)
+		self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
+		self.horizontalLayout_4.setContentsMargins(-1, 0, -1, -1)
+		self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+		self.label_6 = QtWidgets.QLabel(AboutDialog)
+		self.label_6.setAlignment(QtCore.Qt.AlignCenter)
+		self.label_6.setOpenExternalLinks(True)
+		self.label_6.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByKeyboard|QtCore.Qt.LinksAccessibleByMouse)
+		self.label_6.setObjectName("label_6")
+		self.horizontalLayout_4.addWidget(self.label_6)
+		self.label_2 = QtWidgets.QLabel(AboutDialog)
+		self.label_2.setAlignment(QtCore.Qt.AlignCenter)
+		self.label_2.setOpenExternalLinks(True)
+		self.label_2.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByKeyboard|QtCore.Qt.LinksAccessibleByMouse)
+		self.label_2.setObjectName("label_2")
+		self.horizontalLayout_4.addWidget(self.label_2)
+		self.label_7 = QtWidgets.QLabel(AboutDialog)
+		self.label_7.setAlignment(QtCore.Qt.AlignCenter)
+		self.label_7.setOpenExternalLinks(True)
+		self.label_7.setTextInteractionFlags(QtCore.Qt.LinksAccessibleByKeyboard|QtCore.Qt.LinksAccessibleByMouse)
+		self.label_7.setObjectName("label_7")
+		self.horizontalLayout_4.addWidget(self.label_7)
+		self.gridLayout.addLayout(self.horizontalLayout_4, 1, 0, 1, 2)
+		self.label = QtWidgets.QLabel(AboutDialog)
+		self.label.setMinimumSize(QtCore.QSize(150, 150))
+		self.label.setMaximumSize(QtCore.QSize(150, 150))
+		self.label.setText("")
+		self.label.setPixmap(QtGui.QPixmap(":/img/logo.png"))
+		self.label.setScaledContents(True)
+		self.label.setAlignment(QtCore.Qt.AlignCenter)
+		self.label.setObjectName("label")
+		self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+		self.horizontalLayout = QtWidgets.QHBoxLayout()
+		self.horizontalLayout.setContentsMargins(-1, 0, -1, -1)
+		self.horizontalLayout.setObjectName("horizontalLayout")
+		self.label_8 = QtWidgets.QLabel(AboutDialog)
+		self.label_8.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+		self.label_8.setObjectName("label_8")
+		self.horizontalLayout.addWidget(self.label_8)
+		spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+		self.horizontalLayout.addItem(spacerItem)
+		self.close_button = QtWidgets.QPushButton(AboutDialog)
+		self.close_button.setMinimumSize(QtCore.QSize(100, 0))
+		self.close_button.setMaximumSize(QtCore.QSize(100, 16777215))
+		self.close_button.setObjectName("close_button")
+		self.horizontalLayout.addWidget(self.close_button)
+		self.gridLayout.addLayout(self.horizontalLayout, 2, 1, 1, 1)
+
+		self.retranslateUi(AboutDialog)
+		QtCore.QMetaObject.connectSlotsByName(AboutDialog)
+
+	def retranslateUi(self, AboutDialog):
+		_translate = QtCore.QCoreApplication.translate
+		AboutDialog.setWindowTitle(_translate("AboutDialog", "About"))
+		self.label_5.setText(_translate("AboutDialog", "<html><head/><body><p><span style=\" font-size:20pt;\">Ichō Dictionary</span></p></body></html>"))
+		self.label_3.setText(_translate("AboutDialog", "<html><head/><body><p><span style=\" font-size:9pt;\">v"+version+"."+date+"</span></p></body></html>"))
+		self.label_4.setText(_translate("AboutDialog", "Ichō is a collaborative dictionary creation tool, designed to help those working with under-described languages.<br/><br/>The tools used by Ichō and related software have been developed by 乡音苑 Phonemica, an organisation working on minority language efforts since 2009."))
+		self.label_6.setText(_translate("AboutDialog", "web <a href=\'http://xyy.tw/ixho\'>xyy.tw/icho</a>"))
+		self.label_2.setText(_translate("AboutDialog", "git <a href=\'https://github.com/keyilan/icho\'>keyilan/icho</a>"))
+		self.label_7.setText(_translate("AboutDialog", "<a href=\'mailto:yhilan.ko@gmail.com\'>yhilan.ko@gmail.com</a>"))
+		self.label_8.setText(_translate("AboutDialog", "<span style=\" font-size:9pt;\">© 2017-2019 乡音苑 Phonemica</span>"))
+		self.close_button.setText(_translate("AboutDialog", "Ok"))
+
+import icons_rc

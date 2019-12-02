@@ -1,0 +1,13 @@
+.DS_Store
+build
+dist
+local.db
+__pycache__
+*.pyc
+qt_tmp.*
+zo.db.lock
+zo.db.tmp
+venv
+ui/__pycache__
+..gitignore.swp
+auth.py

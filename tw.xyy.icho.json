@@ -1,0 +1,22 @@
+{
+    "app-id": "tw.xyy.icho",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "1.6",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "main.py",
+    "modules": [
+        {
+            "name": "icho",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -D hello.sh /app/bin/hello.sh"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "main.py"
+                }
+            ]
+        }
+    ]
+}

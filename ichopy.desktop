@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=0.1
+Name=Ichō Dictionary Tool
+Comment=Python3 implementation of IchōDict
+Exec=python3 /home/keyilan/git/app.icho.py/main.py
+Icon=/home/keyilan/git/app.icho.py/res/icon.icns
+Path=/home/keyilan/git/app.icho.py/
+Terminal=false
+Type=Application
+Categories=Utility;Application;

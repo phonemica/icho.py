@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/check.png</file>
+        <file>img/delete.png</file>
+        <file>img/info.png</file>
+        <file>img/large.png</file>
+        <file>img/logo.png</file>
+        <file>img/plus.png</file>
+        <file>img/settings.png</file>
+        <file>img/sync.png</file>
+    </qresource>
+</RCC>
